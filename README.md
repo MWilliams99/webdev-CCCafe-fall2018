@@ -12,7 +12,3 @@ The cafe website includes four HTML pages:
 - Events; This page includes example events held at the cafe including the dates and an image for each event.
 - Menu; This is the menu page for the cafe website and demonstrates the usage of jQuery tabs to separate each part of the menu.
 
-## How to use
-
-
-## Acknowledgements
