@@ -1,9 +1,10 @@
 # Web Development Cafe Website Fall 2018
 ## Project Description
 Example Cafe business website created as my final project for the Fall 2018 CTI-110 Web, Programming, &amp; Database Foundations course at Halifax Community College.  
-This project uses HTML, CSS, and jQuery to demonstrate what was learned throughout the course.
+The assignment was to come up with a fictional business and to create a website for that business.  
+This project uses HTML, CSS, and jQuery to demonstrate what was learned throughout the course. 
 
-This project was completed on November 27th, 2018.
+This project was completed on November 9th, 2018.
 
 The cafe website includes four HTML pages:
 - Index; This is the homepage for the website which introduces the user to the website and links to the other pages.
