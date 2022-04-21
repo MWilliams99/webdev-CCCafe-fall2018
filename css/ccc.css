@@ -1,0 +1,170 @@
+/*Colors used;
+	html background: #895b37 - changed to #422c14 same as nav hover, to keep amount of colors down
+	body/main background: #ead9c8
+	nav/footer background:#4e3418
+	nav hover background:#422c14 - slightly darker
+	active page on nav background:#d5a171 - contrast the rest of nav - changed to #e0b995 after html color was changed because previous looked too..orange
+	White for font on dark background. #4e3418 for font on light background.*/
+
+/*Begin general style definitions*/
+html{
+	width:100%;
+	background-color: #422c14;
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: #ead9c8;
+	width:1024px;
+	margin:0px auto;
+	background: url('../images/coffeeheader.jpg') no-repeat;
+	padding:0px;
+	font-family:"Times New Roman", Times, serif;
+}
+/*End general style definitions*/
+/*Begin container element style definitions*/
+header{
+	color:white;
+	padding-top:400px;
+}
+header h1{
+	margin:0px;
+	color:white;
+	padding-left:1%;
+	font-size:3em;
+	font-family: "Times New Roman", Times, serif;
+}
+main{
+	background-color: #ead9c8;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+	font-family:"Times New Roman", Times, serif;
+}
+main ul{
+	list-style-type:none;
+}
+main ul li{
+	overflow:auto;
+}
+main ul li img{
+	float:right;
+	size:25%;
+}
+footer{
+	background-color: #4e3418;
+	margin:0px;
+}
+address{
+	text-align:center;
+	color:white;
+	padding:1%;
+}
+address a{
+	color:white;
+	text-decoration:underline;
+}
+nav{
+	background-color: #4e3418;
+}
+nav ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+nav ul li{
+	float:left;
+	font-size:1.2em;
+}
+nav ul li a{
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding:15px 15px;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	background-color:#422c14;
+	color:white;
+	transition-duration:2s;
+}
+p{
+	color:#4e3418;
+	padding:0% 5%;
+	font-size:1.25em;
+}
+em{
+	color:#462f16;
+}
+strong{
+	color:#462f16;
+}
+/*End container element style definitions*/
+/*Begin heading element style definitions*/
+h1, h2, h3{
+	color:#4e3418;
+}
+h1{
+	font-size:2em;
+	padding-left:5%;
+}
+h2{
+	font-size:1.75em;
+	padding-left:5%;
+}
+h3{
+	padding-left:5%;
+}
+/*End heading element style definitions*/
+/*Begin form element style definitions*/
+
+/*End form element style definitions*/
+/*Begin figure element style definitions*/
+figure{
+	text-align:center;
+	float:right;
+}
+figcaption{
+	color:#4e3418;
+}
+/*End figure element style definitions*/
+/*Begin link element style definitions*/
+a{
+	text-decoration:none;
+	color:saddlebrown;
+}
+main a:hover{
+	color:#422c14;
+	text-decoration:underline;
+	transition-duration:5s;
+}
+a:visited{
+	
+}
+
+/*End link element style definitions*/
+/*Begin class and ID style definitions*/
+.activenav{
+	background-color:#e0b995;
+	color:#4e3418;
+}
+#eventhalloween{
+	border-style:double;
+	border-color:orange;
+}
+#eventband{
+	border-style:double;
+	border-color:black;
+}
+#eventthanksgiving{
+	border-style:double;
+	border-color:chocolate;
+}
+/*End class and ID style definitions*/
+/*Begin keyframes section*/
+/*@keyframes  {
+	from{}
+	to{}
+}*/
+/*End keyframes section*/

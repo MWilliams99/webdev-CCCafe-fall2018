@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- Your Own Job Site Project; Mary Williams -->
+<html>
+<head>
+	<title>Craving Caffeine Cafe Reviews</title>
+	<meta name="author" content="Mary Williams" />
+	<link rel="stylesheet" href="css/ccc.css"/>
+	<script>
+		function validate() {
+			var name = document.forms["review"]["rName"];
+			var rating = document.forms["review"]["rRating"];
+			var reviewp = document.forms["review"]["rReview"];
+			
+			if (name.value == "") {
+				alert("Validation failed.");
+				return false;
+			}
+			if (rating.value == "") {
+				alert("Validation failed.");
+				return false;
+			}
+			if (reviewp.value == "") {
+				alert("Validation failed.");
+				return false;
+			}
+			return true;
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<h1>Craving Caffeine Cafe</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="reviews.html" class="activenav">Customer Reviews</a></li>
+			<li><a href="events.html">Hosted Events</a></li>
+			<li><a href="menu.html">Menu</a></li>
+		</ul>
+	</nav>
+	<main>
+		<!- I used random name generators for names ->
+		<section>
+			<h3>Bridget Flynn</h3>
+				<p>I absolutely love this cafe and it's welcoming environment! <strong>4.5/5</strong></p>
+			<h3>Stuart Gibbs</h3>
+				<p>I enjoy hanging out here with my friends on rainy days. I always get one of their muffins, but since it is on rotation it keeps some variety! <strong>5/5</strong></p>
+			<h3>Hannah White</h3>
+				<p>OMG! I totes looove stopping by this cafe on my way to work. Their coffee helps me get my caffiene boost for the day! #CravingCaffeine <strong>4.7/5</strong></p>
+		</section>
+		
+		<form action="process.php" method="post" name="review" onsubmit="return validate()">
+			<p>Name: <input type="text" name="rName" /></p>
+			<p>Rating 1-5: <input type="number" name="rRating" min="1" max="5" /></p>
+			<p>Review: <input type="text" name="rReview" /></p>
+			<p><input type="submit" /></p>
+		</form>
+	</main>
+	<footer>
+		<address>
+			Website by <a href="mailto:example@example.com">Mary Williams</a> for Your Own Job Site Project. Last updated Nov. 9, 2018.
+		</address>
+	</footer>
+</body>
+</html>
